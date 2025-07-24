@@ -52,7 +52,7 @@ LOCAL_C_INCLUDES := $(MUPDF_PATH)/include
 LOCAL_CFLAGS += -ffunction-sections -fdata-sections
 LOCAL_CFLAGS += -D_FILE_OFFSET_BITS=32
 LOCAL_CFLAGS += -DTOFU_NOTO
-LOCAL_CFLAGS += -DTOFU_CJK
+#LOCAL_CFLAGS += -DTOFU_CJK
 LOCAL_CFLAGS += -DTOFU_SIL
 LOCAL_CFLAGS += -DAA_BITS=8
 LOCAL_CFLAGS += -DFZ_ENABLE_BARCODE=0
@@ -107,6 +107,7 @@ LOCAL_SRC_FILES += $(wildcard $(MUPDF_PATH)/source/html/*.c)
 LOCAL_SRC_FILES += $(wildcard $(MUPDF_PATH)/source/helpers/pkcs7/*.c)
 
 LOCAL_SRC_FILES += $(wildcard $(MUPDF_PATH)/generated/resources/fonts/urw/*.c)
+LOCAL_SRC_FILES += $(wildcard $(MUPDF_PATH)/generated/resources/fonts/han/*.c)
 
 LOCAL_CFLAGS += $(MUPDF_EXTRA_CFLAGS)
 

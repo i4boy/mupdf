@@ -295,6 +295,9 @@ FONT(han,	SourceHanSerif_Regular_ttc,	"Source Han Serif",		UCDN_SCRIPT_HAN,	FZ_L
 ALIAS(han,	SourceHanSerif_Regular_ttc,	"Source Han Serif",		UCDN_SCRIPT_HAN,	FZ_LANG_UNSET,		3,	REGULAR)
 ALIAS(han,	SourceHanSerif_Regular_ttc,	"Source Han Serif",		UCDN_SCRIPT_BOPOMOFO,	FZ_LANG_UNSET,		3,	REGULAR)
 
+FONT(han,	SourceHanSerifCN_Regular_otf,"Source Han Serif CN", UCDN_SCRIPT_HAN,	FZ_LANG_zh_Hans,	0,	REGULAR)
+FONT(han,	SourceHanSerifCN_Bold_otf,	"Source Han Serif CN Bold",UCDN_SCRIPT_HAN,	FZ_LANG_zh_Hans,	0,	BOLD)
+
 #else
 
 FONT(droid,	DroidSansFallbackFull_ttf,	"Droid Sans Fallback Full",	UCDN_SCRIPT_HAN,	FZ_LANG_UNSET,		0,	REGULAR)

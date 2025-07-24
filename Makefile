@@ -200,6 +200,7 @@ HEXDUMP_SH := scripts/hexdump.sh
 
 FONT_BIN := $(sort $(wildcard resources/fonts/urw/*.cff))
 FONT_BIN += $(sort $(wildcard resources/fonts/han/*.ttc))
+FONT_BIN += $(sort $(wildcard resources/fonts/han/*.otf))
 FONT_BIN += $(sort $(wildcard resources/fonts/droid/DroidSansFallbackFull.ttf))
 FONT_BIN += $(sort $(wildcard resources/fonts/droid/DroidSansFallback.ttf))
 FONT_BIN += $(sort $(wildcard resources/fonts/noto/*.otf))
