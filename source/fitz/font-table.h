@@ -281,7 +281,7 @@ FONT(noto,	NotoEmoji_Regular_ttf,		"Noto Emoji",		MUPDF_SCRIPT_EMOJI,	FZ_LANG_UN
 #ifndef TOFU_CJK
 #ifndef TOFU_CJK_EXT
 #ifndef TOFU_CJK_LANG
-
+#if 0
 FONT(han,	SourceHanSerif_Regular_ttc,	"Source Han Serif",		UCDN_SCRIPT_HAN,	FZ_LANG_ja,		0,	REGULAR)
 ALIAS(han,	SourceHanSerif_Regular_ttc,	"Source Han Serif",		UCDN_SCRIPT_HIRAGANA,	FZ_LANG_UNSET,		0,	REGULAR)
 ALIAS(han,	SourceHanSerif_Regular_ttc,	"Source Han Serif",		UCDN_SCRIPT_KATAKANA,	FZ_LANG_UNSET,		0,	REGULAR)
@@ -297,7 +297,8 @@ ALIAS(han,	SourceHanSerif_Regular_ttc,	"Source Han Serif",		UCDN_SCRIPT_BOPOMOFO
 
 FONT(han,	SourceHanSerifCN_Regular_otf,"Source Han Serif CN", UCDN_SCRIPT_HAN,	FZ_LANG_zh_Hans,	0,	REGULAR)
 FONT(han,	SourceHanSerifCN_Bold_otf,	"Source Han Serif CN Bold",UCDN_SCRIPT_HAN,	FZ_LANG_zh_Hans,	0,	BOLD)
-
+#endif
+FONT(han,	FZJinLs_L_GB_ttf           ,"FZJinLs-L-GB",         UCDN_SCRIPT_HAN,	FZ_LANG_zh_Hans,	0,	REGULAR)
 #else
 
 FONT(droid,	DroidSansFallbackFull_ttf,	"Droid Sans Fallback Full",	UCDN_SCRIPT_HAN,	FZ_LANG_UNSET,		0,	REGULAR)
