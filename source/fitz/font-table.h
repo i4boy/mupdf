@@ -298,7 +298,9 @@ ALIAS(han,	SourceHanSerif_Regular_ttc,	"Source Han Serif",		UCDN_SCRIPT_BOPOMOFO
 FONT(han,	SourceHanSerifCN_Regular_otf,"Source Han Serif CN", UCDN_SCRIPT_HAN,	FZ_LANG_zh_Hans,	0,	REGULAR)
 FONT(han,	SourceHanSerifCN_Bold_otf,	"Source Han Serif CN Bold",UCDN_SCRIPT_HAN,	FZ_LANG_zh_Hans,	0,	BOLD)
 #endif
-FONT(han,	FZJinLs_L_GB_ttf           ,"FZJinLs-L-GB",         UCDN_SCRIPT_HAN,	FZ_LANG_zh_Hans,	0,	REGULAR)
+FONT(han,	FZJinLs_L_GB_ttf           ,"FZJinLs-L-GB",         ANY_SCRIPT,	FZ_LANG_UNSET,	NO_SUBFONT,	REGULAR)
+FONT(han,	FZJinLs_L_GB_ttf           ,"FZJinLs-L-GB",         ANY_SCRIPT,	FZ_LANG_UNSET,	NO_SUBFONT,	ITALIC)
+FONT(han,	FZJinLs_L_GB_ttf           ,"FZJinLs-L-GB",         ANY_SCRIPT,	FZ_LANG_UNSET,	NO_SUBFONT,	BOLD)
 #else
 
 FONT(droid,	DroidSansFallbackFull_ttf,	"Droid Sans Fallback Full",	UCDN_SCRIPT_HAN,	FZ_LANG_UNSET,		0,	REGULAR)
